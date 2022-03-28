@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/contactStyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <h1 class="logo">Balloonify</h1>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="references.html">References</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="parentContainer">
+            <article class="contactInfo">
+                <section class="contactInformation">
+                <h2 class="titleContact">Contact Information</h2>
+                <h3>Address:</h3>
+                <h4>Canada House, 3 Chepstow Street, 2nd Floor, Manchester M1 5FW</h4>
+                <h3>Telephone:</h3>
+                <h4>+44 0161 777 666</h4>
+                </section>
+                <img src="./Images/officebuilding.jpg" alt="Canada House Office Building" title="Canada House Office Building">
+            </article>
+
+            <div class="contactFormContainer">
+                <h2 class="formTitle">Contact Us</h2>
+
+                <form action="">
+                  <label for="name">Name</label>
+                  <input type="text" id="nameInput" name="name" class="fillForm" placeholder="Your name.." />
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="emailInput" name="email" class="fillForm" placeholder="Your email.." />
+              
+                  <label for="subject">Subject</label>
+                  <select id="selectSubject" name="subject" class="fillForm">
+                    <option value="choose">Choose a subject...</option>
+                    <option value="proposal">Proposal</option>
+                    <option value="customer service">Customer Service</option>
+                    <option value="other">Other</option>
+                  </select>
+              
+                  <label for="message">Message/Inquiry</label>
+                  <textarea id="message" name="message" class="fillForm"></textarea>
+              
+                </form>
+                <input type="submit" value="Submit" />
+
+              </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="references.html">References</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
